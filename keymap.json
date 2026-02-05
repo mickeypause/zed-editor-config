@@ -15,21 +15,21 @@
       "cmd-r": null,
       "cmd-w": null,
       "cmd-shift-w": null,
-      "cmd-r w": "menu::Cancel"
+      "cmd-k w": "menu::Cancel"
     }
   },
   {
     "context": "Pane",
     "bindings": {
       "cmd-w": null,
-      "cmd-r w": "pane::CloseInactiveItems"
+      "cmd-k w": "pane::CloseAllItems"
     }
   },
   {
     "context": "EmptyPane",
     "bindings": {
       "cmd-w": null,
-      "cmd-r w": "menu::Cancel"
+      "cmd-k w": "menu::Cancel"
     }
   },
   {
@@ -37,7 +37,7 @@
     "bindings": {
       "alt-escape": "editor::ShowCompletions",
       "cmd-i": "workspace::ToggleLeftDock",
-      "cmd-r w": "pane::CloseInactiveItems",
+      "cmd-k w": "pane::CloseAllItems",
       "cmd-w": null
     }
   },
