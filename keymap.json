@@ -11,15 +11,34 @@
     "bindings": {
       // "shift shift": "file_finder::Toggle"
       "cmd-b": "workspace::ToggleRightDock",
-      "cmd-r w": "pane::CloseAllItems",
-      "cmd-i": "workspace::ToggleLeftDock"
+      "cmd-i": "workspace::ToggleLeftDock",
+      "cmd-r": null,
+      "cmd-w": null,
+      "cmd-shift-w": null,
+      "cmd-r w": "menu::Cancel"
+    }
+  },
+  {
+    "context": "Pane",
+    "bindings": {
+      "cmd-w": null,
+      "cmd-r w": "pane::CloseInactiveItems"
+    }
+  },
+  {
+    "context": "EmptyPane",
+    "bindings": {
+      "cmd-w": null,
+      "cmd-r w": "menu::Cancel"
     }
   },
   {
     "context": "Editor",
     "bindings": {
       "alt-escape": "editor::ShowCompletions",
-      "cmd-i": "workspace::ToggleLeftDock"
+      "cmd-i": "workspace::ToggleLeftDock",
+      "cmd-r w": "pane::CloseInactiveItems",
+      "cmd-w": null
     }
   },
   {
