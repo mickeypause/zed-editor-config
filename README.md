@@ -26,4 +26,4 @@ cp zed-editor-config/settings.json ~/.config/zed/
 |----------|--------|
 | `cmd+b` | Toggle Right Dock |
 | `cmd+i` | Toggle Left Dock (AI Panel) |
-| `cmd+r w` | Close All Files |
+| `cmd+k w` | Close All Files (VSCode style) |
